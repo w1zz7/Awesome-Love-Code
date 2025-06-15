@@ -9,7 +9,7 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('猥琐女！', A);
     });
 });
 
@@ -18,15 +18,15 @@ function A() {
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('迟来的一点浪漫', C);
 }
 
 function C() {
-    modal('请宝宝不要拒绝我嘛~', D);
+    modal('花了好久编程这个呢~', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('你对我来说真的很重要', E);
 }
 
 function E() {
@@ -34,11 +34,11 @@ function E() {
 }
 
 function F() {
-    modal('跟我走吧宝宝~', G);
+    modal('我好想加你~', G);
 }
 
 function G() {
-    modal('房产证上写你的名字', H);
+    modal('但是你离我好远', H);
 }
 
 function H() {
@@ -57,11 +57,11 @@ function I() {
     modal('会唱歌给你听', J)
 }
 function I() {
-    modal('爱你！', J)
+    modal('会弹吉他给你听！', J)
 }
 
 function J() {
-    modal('Love you', function() {
+    modal('Love you pooks', function() {
         fireworks();
     });
 }
