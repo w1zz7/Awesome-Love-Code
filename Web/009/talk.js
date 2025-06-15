@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小宝宝一定会愿意~(^_^)', function() {
+        modal('迟来的一点点浪漫~(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -57,11 +57,11 @@ function I() {
     modal('会唱歌给你听', J)
 }
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('爱你！', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('Love you', function() {
         fireworks();
     });
 }
