@@ -34,7 +34,7 @@ function E() {
 }
 
 function F() {
-    modal('我好想加你~', G);
+    modal('我好想见你~', G);
 }
 
 function G() {
